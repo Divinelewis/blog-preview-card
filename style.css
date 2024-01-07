@@ -1,0 +1,172 @@
+.attribution { margin-top: 10vh; text-align: center; font-size: 11px; text-align: center; }
+.attribution a { font-weight: 800; text-decoration: none; color: hsl(228, 45%, 44%); }
+
+@font-face {
+    font-family: Figtree-W;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: Figtree-W;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    display: inline-block;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.container .box {
+    background-color: white;
+    outline: 1px solid black;
+    border-radius: 1em;
+    max-width: 20vw;
+    max-height: auto;
+    padding: 1em;
+}
+
+.container .box .wrapper img {
+    height: auto;
+    width: 20vw;
+    border-radius: 11px;
+}
+
+.container .box .idlebtn {
+    background-color:hsl(47, 88%, 63%);
+    margin-top: 19px;
+    margin-bottom: 11px;
+    border-radius: 4px;
+    width: 4em;
+}
+
+.container .box .idlebtn h1 {
+    font-size: .8rem;
+    text-align: center;
+    padding: .2em 0 .3em 0;
+    font-weight: bold;
+}
+
+.container .box .dateOfPublication {
+    font-size: .75rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.container .box h1 {
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.container .box .description {
+    font-size: .82rem;
+    line-height: 21px;
+    font-weight: 500;
+    color: hsl(0, 0%, 49%);
+}
+
+.container .box .person {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container .box .person img {
+    height: 25px;
+    width: 25px;
+}
+
+.container .box .person h2 {
+    font-size: .8em;
+    font-weight: 800;
+}
+
+@media only screen and (min-width: 125px) and (max-width: 319px){
+    .container .box {
+        background-color: white;
+        outline: 1px solid black;
+        border-radius: 1em;
+        max-width: 60vw;
+        max-height: auto;
+        padding: 1em;
+    }
+
+    .container .box .wrapper img {
+        height: auto;
+        width: 60vw;
+        border-radius: 11px;
+    }
+
+    .container .box h1 {
+        font-size: .9rem;
+        font-weight: 800;
+    }
+    
+    .container .box .description {
+        font-size: .6rem;
+        line-height: 18px;
+        font-weight: 500;
+        color: hsl(0, 0%, 49%);
+    }
+
+    .container .box .idlebtn {
+        background-color:hsl(47, 88%, 63%);
+        margin-top: 17px;
+        margin-bottom: 10px;
+        border-radius: 2px;
+        width: 3em;
+    }
+    
+    .container .box .idlebtn h1 {
+        font-size: .6rem;
+        text-align: center;
+        padding: .2em 0 .3em 0;
+        font-weight: bold;
+    }
+
+    .attribution {
+        margin-top: 10vh; 
+        text-align: center; 
+        font-size: 8px; 
+        text-align: center;
+    }
+
+    .container .box .dateOfPublication {
+        font-size: .55rem;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .container .box .person img {
+        height: 22px;
+        width: 22px;
+    }
+    
+    .container .box .person h2 {
+        font-size: .65em;
+        font-weight: 800;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 2560px) {
+    .container .box {
+        background-color: white;
+        outline: 1px solid black;
+        border-radius: 1em;
+        max-width: 270px;
+        max-height: auto;
+        padding: 1em;
+    }
+
+    .container .box .wrapper img {
+        height: auto;
+        width: 270px;
+        border-radius: 11px;
+    }
+}
